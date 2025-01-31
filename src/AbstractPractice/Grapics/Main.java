@@ -1,4 +1,4 @@
-package AbstractPractice;
+package AbstractPractice.Grapics;
 
 public class Main {
 

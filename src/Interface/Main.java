@@ -31,7 +31,18 @@ class MyCalc implements Calc {
 public class Main {
 
     public static void main(String[] args) {
-        MyCalc myCalc = new MyCalc();
+        MyCalc obj = new MyCalc();
+
+        System.out.println(obj.add(10,20));
+        System.out.println(obj.sub(10,20));
+        System.out.println(obj.sin(90));
+
+        Calc c;
+
+        c = new MyCalc();
+
+        System.out.println(c.add(10,20));
+        System.out.println(c.sub(10,20));
     }
 
 }
